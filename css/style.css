@@ -12,6 +12,12 @@ header, main {
 	text-align: center;
 }
 
+footer {
+	color: white;
+	font-size: 11px;
+	background: dimgray;
+}
+
 .hero {
 	background: url("../resources/images/the-flatiron-building.png");
 	color: white;
@@ -37,3 +43,5 @@ header, main {
 .subsection-content {
 	font-size: 14px;
 }
+
+.
