@@ -2,60 +2,44 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Broadway</title>
+	<title>Broadway Design</title>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
-	<header>
+	
+	<!--Header section-->
+	<header class="hero">
 		<h1>Broadway Design</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Work</a></li>
-				<li><a href="#">Team</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
+		<p><a class="btn-nav" href="#">Home</a></p>
+		<p><a class="btn-nav" href="#about">About</a></p>
+		<p><a class="btn-nav" href="#">Work</a></p>
+		<p><a class="btn-nav" href="#">Team</a></p>
+		<p><a class="btn-nav" href="#">Contact</a></p>
 	</header>
 	<main>
-		<section class="ourProcess">
-			<h2>Our Process</h2>
-				<div class="identify">
-					<img src="./resources/images/identify.svg">
-					<h4>Identify</h4>
-					<p>We focus on the most important details.</p>
-				</div>
-				<div class="understand">
-					<img src="./resources/images/understand.svg">
-					<h4>Understand</h4>
-					<p>We study our projects inside and out.</p>
-				</div>
-				<div class="execute">
-					<img src="./resources/images/execute.svg">
-					<h4>Execute</h4>
-					<p>We put everything we have into our work.</p>
-				</div>
-		</section>
-		<section class="closing">
-			<header>
-				<h4>Designed in New York</h4>
-			</header>
-			<div class="portfolio">
-				<h4>Portfolio</h4>
-				<p>Coming Soon</p>
-			</div>
-			<div class="team">
-				<h4>Team</h4>
-				<p>We're Hiring!</p>
-			</div>
-			<div class="contact">
-				<h4>Contact</h4>
-				<p>Phone: (555)-555-5555</p>
-				<p>E-mail: test@example.com</p>
-				<p>Twitter: @test</p>
+		
+		<!--About section-->
+		<section class="about">
+			<h2 class="section-title">Our Process</h2>
+			<div>
+				<img src="./resources/images/identify.svg">
+				<h3 class="subsection-title">Identify</h3>
+				<p class="subsection-content">We focus on the most important details.</p>
+			</div>			<div>
+				<img src="./resources/images/understand.svg">
+				<h3 class="subsection-title">Understand</h3>
+				<p class="subsection-content">We study our projects inside and out.</p>
+			</div>			<div>
+				<img src="./resources/images/execute.svg">
+				<h3 class="subsection-title">Execute</h3>
+				<p class="subsection-content">We put everything we have into our work.</p>
 			</div>
 		</section>
+
+		<!--Mini hero section-->
+		<div class="hero">
+			<h3 class="subsection-title">Designed in New York</h3>
+		</div>
 	</main>
 </body>
 </html>
