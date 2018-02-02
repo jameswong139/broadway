@@ -8,12 +8,12 @@
 header {
 	background: url("../resources/images/the-flatiron-building.png");
 	background-size: cover;
+	color: white;
 }
 
 h1 {
 	font-size: 70px;
 	font-weight: bold;
-	color: white;
 }
 
 nav li {
@@ -22,7 +22,7 @@ nav li {
 }
 
 a {
-		color: white;
+	color: white;
 }
 
 /* Our Process section */
@@ -32,7 +32,7 @@ h2 {
 	font-weight: bold;
 }
 
-h3 {
+h4 {
 	font-size: 23px;
 	font-weight: bold;
 }
@@ -40,3 +40,6 @@ h3 {
 p {
 	font-size: 14px;
 }
+
+/* Closing section */
+
